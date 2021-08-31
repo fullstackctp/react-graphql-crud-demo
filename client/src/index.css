@@ -1,0 +1,154 @@
+body {
+  background: #f5e1f1;
+  font-family: "Nunito SemiBold";
+}
+
+#main h1 {
+  color: #444;
+  text-align: center;
+}
+
+#main {
+  padding: 0px;
+  box-sizing: border-box;
+  width: 60%;
+  height: 100%;
+}
+
+#book-list {
+  padding: 0;
+}
+
+#book-list li {
+  display: inline-block;
+  margin: 12px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #880e4f;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  color: #880e4f;
+}
+
+.form1 {
+  background: #fff;
+  padding: 20px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 400px;
+}
+
+.formupdate {
+  background: #fff;
+  padding: 20px;
+  position: fixed;
+  right: 300px;
+  bottom: 0;
+  width: 400px;
+}
+
+@media only screen and (max-width: 1325px) {
+  .formupdate {
+    background: #fff;
+    padding: 20px;
+    position: fixed;
+    right: 80px;
+    bottom: 0;
+    width: 400px;
+  }
+}
+
+form .field {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+form label {
+  text-align: right;
+  padding: 6px;
+}
+
+form input,
+form select {
+  margin: 4px 0;
+  padding: 6px;
+  box-sizing: border-box;
+}
+
+form button {
+  color: #fff;
+  font-size: 2em;
+  background: #ad1457;
+  border: 0;
+  padding: 0 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+#book-details {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 40%;
+  height: 100%;
+  background: #ad1457;
+  padding: 30px;
+  overflow: auto;
+  box-shadow: -2px -3px 5px rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  color: #fff;
+}
+
+.bookdetail {
+  font-size: 25px;
+}
+
+.booksbyauthor {
+  font-size: 20px;
+}
+.booksdetailhead {
+  font-size: 35px;
+}
+.removebookbtn {
+  margin: 12px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #880e4f;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  color: #880e4f;
+  position: absolute;
+  top: 56px;
+  right: 39px;
+}
+
+.updatebookbtn {
+  margin: 12px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #880e4f;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  color: #880e4f;
+  position: absolute;
+  top: 98px;
+  right: 35px;
+}
+
+.formupdatebtn {
+  color: #fff;
+  font-size: 22px;
+  background: #ad1457;
+  border: 0;
+  padding: 5px;
+  border-radius: 16px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
